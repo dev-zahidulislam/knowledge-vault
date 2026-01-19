@@ -141,7 +141,7 @@ body {
 
 /* start card section */
 .card {
-  background-color: rgba(248, 226, 199, 0.192);
+  background-color: rgb(251, 251, 251);
 }
 
 .card-content {
@@ -261,3 +261,33 @@ body {
 }
 
 /* end brain section */
+
+/* start think section */
+.think-container {
+  width: 85%;
+  margin: 0 auto 120px;
+  background-color: #f7f6f2;
+  border-radius: 12px;
+}
+
+.think-content {
+  padding: 80px 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.think-content h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgba(0, 25, 49, 1);
+}
+
+.think-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: rgba(98, 115, 130, 1);
+}
+/* end think section */
