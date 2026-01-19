@@ -209,3 +209,55 @@ body {
   padding: 0 16px 0 16px;
 }
 /* end card section */
+
+/* start brain section */
+.brain-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 120px auto;
+}
+.brain-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-content .brain-img {
+  width: 600px;
+}
+
+.brain-text .green-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: rgba(70, 145, 101, 1);
+}
+
+.brain-text h2 {
+  font-size: 51px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: rgba(0, 25, 49, 1);
+}
+
+.brain-text .normal-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+  color: rgba(98, 115, 130, 1);
+}
+
+.p-list img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.p-list p {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* end brain section */
